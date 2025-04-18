@@ -10,6 +10,7 @@ class CategoriesController extends Controller
 {
     public function __invoke()
     {
+       
         $categories = Category::all();
         /*
             Здесь используется модель Category для получения всех записей из таблицы electrodes.
